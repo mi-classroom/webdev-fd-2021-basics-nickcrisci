@@ -1,0 +1,32 @@
+h1 {
+    color: grey;
+}
+
+hr {
+    width: 200px;
+    text-align: left;
+    margin-left: 0;
+}
+
+i, figcaption {
+    color: lightgray;
+}
+
+dt {
+    color: gray;
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    font-weight: normal;
+}
+
+#table-top {
+    color: yellow;
+}
+
+#quote {
+    text-align: left;
+    color: rgb(230, 166, 63);
+}
