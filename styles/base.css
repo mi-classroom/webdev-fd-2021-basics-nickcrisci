@@ -1,34 +1,34 @@
 body {
     font-family: var(--font-normal);
-    font-weight: var(--font-weight-strongest);
+    font-weight: var(--font-weight-normal);
     padding: 1rem;
     line-height: var(--lh-normal);
 }
 
 h1, h2, h3, p, section, dd {
-    margin-bottom: 1rem;
+    margin-bottom: var(--m);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    color: #666;
-    margin-bottom: 0.5rem;
+    font-weight: var(--font-weight-strong);
+    color: var(--dark);
+    margin-bottom: var(--xs);
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: var(--xxl);
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: var(--xl);
 }
 
 h3, dt {
-    font-size: 1.2rem;
+    font-size: var(--l);
 }
 
 nav, main, footer, article {
-    margin-bottom: 2rem;
+    margin-bottom: var(--xxl);
     max-width: 54rem;
 }
 
@@ -45,12 +45,16 @@ figcaption {
     font-size: var(--s);
 }
 
-dd, figure{
+dd, figure {
     margin-bottom: var(--xxl);
 }
 
+dt {
+    font-weight: var(--font-weight-strong);
+    font-size: var(--l);
+}
+
 form {
-    text-align: left;
     width: 100%;
 }
 
