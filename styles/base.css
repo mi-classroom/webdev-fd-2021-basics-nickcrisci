@@ -1,0 +1,83 @@
+body {
+    font-family: var(--font-normal);
+    font-weight: var(--font-weight-normal);
+    padding: 1rem;
+    line-height: var(--lh-normal);
+}
+
+h1, h2, h3, p, section, dd {
+    margin-bottom: var(--m);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: var(--font-weight-strong);
+    color: var(--dark);
+    margin-bottom: var(--xs);
+}
+
+h1 {
+    font-size: var(--xxl);
+}
+
+h2 {
+    font-size: var(--xl);
+}
+
+h3, dt {
+    font-size: var(--l);
+}
+
+nav, main, footer, article {
+    margin-bottom: var(--xxl);
+    max-width: 54rem;
+}
+
+img {
+    width: 100%;
+}
+
+i, figcaption {
+    font-weight: var(--font-weight-light);
+    color: var(--dark);
+}
+
+figcaption {
+    font-size: var(--s);
+}
+
+dd, figure {
+    margin-bottom: var(--xxl);
+}
+
+dt {
+    font-weight: var(--font-weight-strong);
+    font-size: var(--l);
+}
+
+form {
+    width: 100%;
+}
+
+form label {
+    font-size: var(--xxl);
+}
+
+form button {
+    width: 20%;
+    height: var(--xxl);
+    margin: var(--s);
+}
+
+form input {
+    margin: var(--s);
+    border: 1px solid var(--darker);
+}
+
+form input[type="checkbox"] {
+    width: 5%;
+    height: var(--xxl);
+}
+
+.accent-quote {
+    color: var(--accent);
+}
